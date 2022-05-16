@@ -90,7 +90,7 @@ Sản phẩm của chúng tôi có đủ size từ M -> 5XL, luôn luôn đầy 
         DB::table('products')->insert([
             'name' => 'O.S.L SNEAKER - BLACK',
             'description' => '',
-            'image' => 'giay01204.jpg',
+            'image' => 'osl_sneaker_black.jpg',
             'price' => '560000',
             'quantity' => '100',
             'type_id' => '3',
