@@ -111,5 +111,40 @@ Sản phẩm của chúng tôi có đủ size từ M -> 5XL, luôn luôn đầy 
             'quantity' => '100',
             'type_id' => '3',
         ]);
+        DB::table('products')->insert([
+            'name' => 'Áo thun TSUN Embroidered Basic Tee - Thêu - Trắng - Unisex',
+            'description' => 'TSUN -  Embroidered Basic Tee - Trắng
+
+Áo thun Unisex TSUN tay ngắn
+Chất liệu: Vải Cotton 2 chiều cao cấp
+Màu Sắc: Trắng
+Form áo: Châu Âu 
+Thiết kế: Thêu logo TS
+
+Gồm 4 size S M L XL:
+▪Size S:   Từ   1m50  -> 1m60 - Dưới 55kg
+▪Size M:   Từ   1m60  -> 1m75  - Từ 55kg -> 70kg
+▪Size L :   Trên 1m70 - Từ 70kg -> 80kg
+▪Size XL: Trên 1m70 - Từ 80kg ->105kg',
+            'image' => 'TSUN_Embroidered_white.jpg',
+            'price' => '320000',
+            'quantity' => '100',
+            'type_id' => '2',
+        ]);
+        DB::table('products')->insert([
+            'name' => 'Túi chéo TSUN Minibag Heart Pattern - White',
+            'description' => 'TSUN - Minibag Heart Pattern Trắng
+
+Túi đeo chéo TSUN có túi trong suốt
+▪ Cao: 16cm
+▪ Ngang: 12cm
+▪ Rộng: 4cm
+▪ Chất liệu: Canvas 100% cotton.
+▪ Số ngăn: 2 ngăn',
+            'image' => 'tuicheominibag.jpg',
+            'price' => '350000',
+            'quantity' => '100',
+            'type_id' => '2',
+        ]);
     }
 }
